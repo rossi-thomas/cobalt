@@ -3,5 +3,34 @@
     "packageManager": "pnpm@9.6.0",
     "engines": {
         "pnpm": ">=9"
-    }
+    },
+    "version": "1.0.0",
+    "description": "<div align=\"center\">\r     <br/>\r     <p>\r         <img src=\"web/static/favicon.png\" title=\"cobalt\" alt=\"cobalt logo\" width=\"100\" />\r     </p>\r     <p>\r         best way to save what you love\r         <br/>\r         <a href=\"https://cobalt.tools\">\r             cobalt.tools\r         </a>\r     </p>\r     <p>\r         <a href=\"https://discord.gg/pQPt8HBUPu\">\r             💬 community discord server\r         </a>\r         <br/>\r         <a href=\"https://x.com/justusecobalt\">\r             🐦 twitter\r         </a>\r         <a href=\"https://bsky.app/profile/cobalt.tools\">\r             🦋 bluesky\r         </a>\r     </p>\r     <br/>\r </div>",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "dependencies": {
+        "eslint": "^9.16.0",
+        "eslint-scope": "^8.2.0",
+        "eslint-visitor-keys": "^4.2.0",
+        "prettier": "^3.3.3",
+        "typescript-eslint": "^8.18.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rossi-thomas/cobalt.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/rossi-thomas/cobalt/issues"
+    },
+    "homepage": "https://github.com/rossi-thomas/cobalt#readme"
 }
