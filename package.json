@@ -1,41 +1,16 @@
 {
   "name": "cobalt",
   "version": "1.0.0",
-  "description": "<div align=\"center\">\r     <br/>\r     <p>\r         <img src=\"web/static/favicon.png\" title=\"cobalt\" alt=\"cobalt logo\" width=\"100\" />\r     </p>\r     <p>\r         best way to save what you love\r         <br/>\r         <a href=\"https://cobalt.tools\">cobalt.tools</a>\r     </p>\r     <p>\r         <a href=\"https://discord.gg/pQPt8HBUPu\">💬 community discord server</a>\r         <br/>\r         <a href=\"https://x.com/justusecobalt\">🐦 twitter</a>\r         <a href=\"https://bsky.app/profile/cobalt.tools\">🦋 bluesky</a>\r     </p>\r     <br/>\r </div>",
-  "main": "index.js",
-  "type": "module",
   "packageManager": "pnpm@9.6.0",
-  "engines": {
-    "pnpm": ">=9"
-  },
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "eslint": "^9.16.0",
-    "eslint-scope": "^8.2.0",
-    "eslint-visitor-keys": "^4.2.0",
-    "prettier": "^3.3.3",
-    "@typescript-eslint/eslint-plugin": "^8.18.0",
-    "@typescript-eslint/parser": "^8.18.0",
-    "svelte": "^4.0.0"
-  },
-  "devDependencies": {
-    "vite": "^4.4.9",
-    "@sveltejs/vite-plugin-svelte": "^3.1.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rossi-thomas/cobalt.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rossi-thomas/cobalt/issues"
-  },
-  "homepage": "https://github.com/rossi-thomas/cobalt#readme"
+    "svelte": "^4.0.0",
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "vite": "^4.4.9"
+  }
 }
