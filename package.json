@@ -1,16 +1,30 @@
 {
   "name": "cobalt",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.6.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite dev",
+    "build": "vite build && vite build --ssr",
+    "preview": "vite preview",
+    "cf": "wrangler pages dev .svelte-kit/cloudflare"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-cloudflare": "^4.6.0",
+    "@sveltejs/kit": "^2.7.0",
+    "svelte": "^5.0.0",
+    "vite": "^5.4.0",
+    "eslint": "^9.16.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.0"
   },
   "dependencies": {
-    "svelte": "^4.0.0",
-    "@sveltejs/vite-plugin-svelte": "^3.1.1",
-    "vite": "^4.4.9"
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": ["svelte"]
+    }
   }
 }
